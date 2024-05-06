@@ -3,8 +3,8 @@ INSERT INTO department (name)
  VALUES ("IT"),
 		("Finance"),
 		("Legal"),
-		("Sales");
-		("Engineering")
+		("Sales"),
+		("Engineering");
 -- SELECT * FROM department;
 
 INSERT INTO role (title, salary, department_ID) 
@@ -35,5 +35,6 @@ VALUES  ("Joel", "Iles", 1, NULL ),
 		("Ron", "Swanson", 7, 6),
 		("April", "Ludgate",8, 6),
         ("Donna", "Awesome", 9, NULL),
-        ("Tom", "Haverford", 10, 9);
+        ("Tom", "Haverford", 10, 9),
+		("Zach", "Harvey", 11, Null);
 -- SELECT * FROM employee;

@@ -8,13 +8,12 @@
   },
   "dependencies": {
     "as-table": "^1.0.55",
-    "figlet": "^1.2.4",
+    "figlet": "^1.7.0",
     "inquirer": "^7.0.3",
     "mysql": "^2.18.1",
     "node": "^13.6.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "node index.js"
-  },
+  }
 }

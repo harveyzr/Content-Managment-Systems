@@ -50,7 +50,7 @@ The main goal of this application is to use the skills we learned in class to cr
 https://harveyzr.github.io/quizchallenge/
  
 ## Link to GetHub Website
-https://github.com/harveyzr/quizchallenge
+https://github.com/harveyzr/Content-Managment-Systems
 
 
  ## Skills Used

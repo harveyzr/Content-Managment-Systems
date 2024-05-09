@@ -1,8 +1,8 @@
 // Required modules and configuration files
 const inquirer = require("inquirer");
 const figlet = require("figlet");
-const connection = require("./lib/SQL_login");
-const commandMenuChoices = require('./lib/commandMenu');
+const connection = require("./lib/connection");
+const commandMenuChoices = require('./lib/Menu');
 const questions = require('./lib/questions');
 const InquirerFunctions = require('./lib/inquirer');
 const SQLquery = require('./lib/SQL_queries');

@@ -11,11 +11,19 @@ const SQLquery = require('./lib/SQL_queries');
 const inquirerTypes = ['input', 'confirm', 'list'];
 
 // Displaying a cool styled text in the console at the start
-console.log(figlet.textSync('Employee Management', {
+const chalk = require('chalk');
+
+let text = figlet.textSync('Employee Management', {
     font: 'Standard',
     horizontalLayout: 'default',
     verticalLayout: 'default'
-}));
+});
+
+let border = chalk.yellow('*'.repeat(text.split('\n')[0].length + 4));
+
+console.log(border);
+console.log(chalk.yellow('* ') + text.split('\n').join('\n' + chalk.yellow('* ')) + chalk.yellow(' *'));
+console.log(border);
 
 // Call the main menu function to start the app
 mainMenu();

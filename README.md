@@ -11,7 +11,7 @@
  - [Database Schema](#database-schema)
  - [Video Clip](#video-clip)
  - [Link To Recorded Video](#link-to-recorded-video)
- - [Link to GitHub Pages ](#link-to-gethub-website)
+ - [Link to GitHub Pages](#link-to-github-website)
  - [Node Packages Used](#node-packages-used)
  - [Skills Used](#skills-used)
 
@@ -84,7 +84,7 @@ To launch this app you want to make sure that Express is already installed. Addi
  ## Link to Recorded Video
 https://drive.google.com/file/d/1U9NW4LbY8mvsE3JsF5zCaFojtSNn63JB/view
  
- ## Link to GetHub Website
+ ## Link to GitHub Website
  https://github.com/harveyzr/Content-Managment-Systems
 
  ## Node Packages Used

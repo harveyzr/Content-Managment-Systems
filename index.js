@@ -14,12 +14,12 @@ const inquirerTypes = ['input', 'confirm', 'list'];
 const chalk = require('chalk');
 
 let text = figlet.textSync('Employee Management', {
-    font: 'Standard',
+    font: 'ANSI Shadow',    
     horizontalLayout: 'default',
     verticalLayout: 'default'
 });
 
-let border = chalk.yellow('*'.repeat(text.split('\n')[0].length + 4));
+let border = chalk.yellow('*'.repeat(text.split('\n')[0].length + 2));
 
 console.log(border);
 console.log(chalk.yellow('* ') + text.split('\n').join('\n' + chalk.yellow('* ')) + chalk.yellow(' *'));

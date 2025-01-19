@@ -1,4 +1,4 @@
-# Quiz Challenge
+# Content-Managment-Systems
 
 ## Table of Contents
 
@@ -16,13 +16,7 @@
  - [Skills Used](#skills-used)
 
  ## Description
-The main goal of this application is to use the skills we learned in class to create a coding quiz.
-
- Code quiz is the 12th challenge for the Ohio State coding bootcamp.
--	My motivation for this project was to become proficient at coding SQL, Node.js, Inquirer, and MySQL.  
--	Building this project allowed me to implement coding techniques that I have been studying halfway through this bootcamp. 
--	This was a great example of real world examples with no start code.  
--	I learned how to code and deploy backend interfaces. 
+This project is a simple Content Management System (CMS) built using Node.js, MySQL, Inquirer, and Figlet. The CMS allows users to perform basic CRUD (Create, Read, Update, Delete) operations on content stored in a MySQL database.
 
 ## How To Launch the app
 To launch this app you want to make sure that Express is already installed. Additionally you will ned to SOURCE the two .sql files in the "db" folder.
